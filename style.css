@@ -52,6 +52,24 @@ img {
     height: auto;
     display: block;
 }
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 32px auto;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 280px; /* tamanho ideal desktop */
+    height: auto;
+    object-fit: contain;
+}
+
+.logo h1 {
+    font-size: 1.8rem;
+    color: var(--color-primary);
+}
 
 .container {
     width: 90%;
@@ -381,4 +399,5 @@ footer {
     }
     .btn { width: 100%; }
 }
+
 
